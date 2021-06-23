@@ -3,7 +3,7 @@ import numpy as np
 from os import listdir
 from os.path import isfile, join
 
-data_path = 'C:/Users/AMAN.AMAN-SHARMA/OneDrive/Desktop/imagee/'
+data_path = 'C:/Users/prince/OneDrive/Desktop/imagee/'
 onlyfiles = [f for f in listdir(data_path) if isfile(join(data_path,f))]
 
 Training_Data, Labels = [], []
